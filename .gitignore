@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+.env
+node_modules/
+.claude
+.claude/
+ios/
+android/

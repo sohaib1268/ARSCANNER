@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "RoomSnap AR",
+    "slug": "roomsnap-ar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "sdkVersion": "54.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roomsnap.ar",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access for AR placement",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to save AR snapshots",
+        "NSPhotoLibraryAddUsageDescription": "This app needs permission to save photos"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow RoomSnap to access your photos"
+        }
+      ]
+    ]
+  }
+}
