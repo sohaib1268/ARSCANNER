@@ -300,7 +300,6 @@ curl http://localhost:3000/api/objects/<object_id>/status
 
 ## Known Limitations
 
-- **iOS only** - ARKit required (no Android support)
 - **Single object per AR session** - One model at a time in AR view
 - **API rate limits** - Subject to Meshy/Tripo API quotas
 - **Generation time** - 1-3 minutes depending on API load
@@ -311,7 +310,6 @@ curl http://localhost:3000/api/objects/<object_id>/status
 Potential improvements for future versions:
 - Multi-object AR placement
 - Persistent AR anchors with cloud storage
-- Android support using ARCore
 - Object scanning with LiDAR
 - Real-time lighting and occlusion
 - Social sharing features
