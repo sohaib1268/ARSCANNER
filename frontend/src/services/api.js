@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Backend API base URL - update this to your backend server address
-const API_BASE_URL = 'http://10.85.28.250:3000/api';
+const API_BASE_URL = 'http://localhost:3000/api';
 
 class ApiService {
 
